@@ -17,7 +17,7 @@ Example:
 docker image build -t jalochfelix/gsd:ctr2023 .
 ```
 
-![alt text](<Screenshot 2024-07-07 at 17.27.25.png>)
+![alt text](<image.png>)
 
 # 2. Hosting on Registry
 
