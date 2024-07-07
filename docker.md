@@ -43,7 +43,7 @@ docker container run -d --name web -p 8000:8080 \
 ```
 
 - `-d` tells it to run in the background and detach from the terminal.
-- `web` is the name you give it. Take note of the name.
+- `web` is the name you give to the app. Take note of the name.
 - `-p` is port mapping, mapping the port of the app to the playground or local port. Both the playground and local run on port 8000 (host port:container port).
 
 Then you tell it what image to use.
@@ -53,5 +53,22 @@ Then you tell it what image to use.
 ```sh
 docker container ls
 ```
+
+
+# 4. Stopping a container
+
+```sh 
+docker container stop web
 ```
 
+## Chekck if the container actually stopped
+
+```sh
+docker container ls -a
+```
+
+## Start the container again 
+
+```sh 
+docker container start web
+```
