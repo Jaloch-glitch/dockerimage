@@ -3,7 +3,7 @@
 ```markdown
 # 1. Containerizing an App
 
-Clone the repository
+#### Clone the repository
 
 ```sh
 docker image build -t dockerusername/nameoftherepo:version .
